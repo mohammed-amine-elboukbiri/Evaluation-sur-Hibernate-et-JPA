@@ -13,9 +13,14 @@ Développer une application pour gérer le **stock d’un magasin de produits in
 
 
 ##  Diagramme de Classes
+<img width="656" height="381" alt="photo ex 1 eva" src="https://github.com/user-attachments/assets/3ed2fc5d-91d5-43fd-b41c-a3c7b67054a2" />
 
 
 ##  Vidéo de Resultat
+
+
+https://github.com/user-attachments/assets/37c25040-d9a0-45b5-aed4-1da8f1f46cb7
+
 
 
 ---
@@ -28,9 +33,14 @@ Un bureau d’études souhaite suivre le **temps passé sur les projets** et cal
 
 
 ##  Diagramme de Classes
+<img width="302" height="422" alt="photo ex 2 eva" src="https://github.com/user-attachments/assets/0947b4dc-e5ae-4ba1-9181-4bbdedebb7db" />
 
 
 ##  Vidéo de Resultat```
+
+
+https://github.com/user-attachments/assets/ee64814f-c84b-4221-bbc3-00c0d203662d
+
 
 
 ---
@@ -44,10 +54,15 @@ Créer une application permettant de gérer les **citoyens et leurs relations ma
 
 
 ##  Diagramme de Classes
+<img width="372" height="300" alt="photo ex 3 eva" src="https://github.com/user-attachments/assets/5a6e5502-4db9-4ae3-a006-8971f67ebdd8" />
 
 
 
 ##  Vidéo de Test
+
+
+https://github.com/user-attachments/assets/c429c0ad-04e3-4a7f-9263-7ad5721904dd
+
 
 
 ---
