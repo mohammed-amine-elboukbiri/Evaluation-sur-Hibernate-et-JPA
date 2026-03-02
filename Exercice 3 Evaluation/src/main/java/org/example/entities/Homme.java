@@ -10,7 +10,7 @@ import java.util.Date;
 @PrimaryKeyJoinColumn(name = "id")
 
 @NamedQueries({
-        @NamedQuery(name = "findEpouses", query = "select m.femme from Mariage m where m.homme.id = :h_id and m.dateDebut between :d1 and :d2"),
+        @NamedQuery(name = "findEpouses", query = "select m.femme from Mariage m where m.homme.id = :h_id and m.pk.DateDebut between :d1 and :d2"),
         @NamedQuery(name = "findMariagesByHomme", query = "select m from Mariage m where m.homme.id = :h_id")
 })
 

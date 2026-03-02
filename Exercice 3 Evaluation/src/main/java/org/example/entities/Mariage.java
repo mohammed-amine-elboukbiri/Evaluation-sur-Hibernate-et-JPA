@@ -9,9 +9,6 @@ public class Mariage {
     private MariagePk pk;
 
     @Temporal(TemporalType.DATE)
-    private Date dateDebut;
-
-    @Temporal(TemporalType.DATE)
     private Date dateFin;
 
     private int nbrEnfant;
@@ -27,13 +24,12 @@ public class Mariage {
     public Mariage() {
     }
 
-    public Mariage(Date dateDebut, Date dateFin, int nbrEnfant, Homme homme, Femme femme) {
-        this.dateDebut = dateDebut;
+    public Mariage(Date DateDebut, Date dateFin, int nbrEnfant, Homme homme, Femme femme) {
         this.dateFin = dateFin;
         this.nbrEnfant = nbrEnfant;
         this.homme = homme;
         this.femme = femme;
-        this.pk = new MariagePk(homme.getId(), femme.getId());
+        this.pk = new MariagePk(homme.getId(), femme.getId(), DateDebut);
     }
 
     public MariagePk getPk() {
@@ -42,14 +38,6 @@ public class Mariage {
 
     public void setPk(MariagePk pk) {
         this.pk = pk;
-    }
-
-    public Date getDateDebut() {
-        return dateDebut;
-    }
-
-    public void setDateDebut(Date dateDebut) {
-        this.dateDebut = dateDebut;
     }
 
     public Date getDateFin() {

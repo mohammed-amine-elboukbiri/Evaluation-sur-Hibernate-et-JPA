@@ -129,7 +129,6 @@ public class HommeService extends AbstractFacade<Homme>{
         for (Mariage m : mariages) {
             System.out.println("==============================");
             System.out.println("Épouse  : " + m.getFemme().getPrenom() + " " + m.getFemme().getNom());
-            System.out.println("Début   : " + m.getDateDebut());
             System.out.println("Fin     : " + m.getDateFin());
             System.out.println("Enfants : " + m.getNbrEnfant());
         }

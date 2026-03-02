@@ -10,5 +10,10 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping class="org.example.entities.Personne"/>
+        <mapping class="org.example.entities.Femme"/>
+        <mapping class="org.example.entities.Homme"/>
+        <mapping class="org.example.entities.Mariage"/>
+       <mapping class="org.example.entities.MariagePk"/>
+
     </session-factory>
 </hibernate-configuration>

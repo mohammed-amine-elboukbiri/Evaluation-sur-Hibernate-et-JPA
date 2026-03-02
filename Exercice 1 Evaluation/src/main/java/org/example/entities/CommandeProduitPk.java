@@ -2,6 +2,7 @@ package org.example.entities;
 
 import javax.persistence.Embeddable;
 import java.io.Serializable;
+import java.util.Objects;
 
 @Embeddable
 public class CommandeProduitPk implements Serializable {
@@ -33,14 +34,15 @@ public class CommandeProduitPk implements Serializable {
         this.produit = produit;
     }
 
-    public boolean equals(Object object) {
-        if (object == null || getClass() != object.getClass()) return false;
-        if (!super.equals(object)) return false;
-        CommandeProduitPk that = (CommandeProduitPk) object;
-        return java.util.Objects.equals(commande, that.commande) && java.util.Objects.equals(produit, that.produit);
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        CommandeProduitPk that = (CommandeProduitPk) o;
+        return Objects.equals(commande, that.commande) && Objects.equals(produit, that.produit);
     }
 
+    @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), commande, produit);
+        return Objects.hash(commande, produit);
     }
 }

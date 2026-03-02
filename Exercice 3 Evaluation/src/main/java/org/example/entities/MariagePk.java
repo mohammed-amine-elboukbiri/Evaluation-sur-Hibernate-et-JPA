@@ -17,9 +17,10 @@ public class MariagePk implements Serializable {
     public MariagePk() {
     }
 
-    public MariagePk(Integer homme, Integer femme) {
+    public MariagePk(Integer homme, Integer femme, Date DateDebut) {
         this.homme = homme;
         this.femme = femme;
+        this.DateDebut = DateDebut;
     }
 
     public Integer getHomme() {
